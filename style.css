@@ -1,4 +1,10 @@
 
+@media screen and (max-width: 600px) {
+  article #intro, #details {
+    display: none;
+  }
+}
+
 body {
 	background-image: url(https://www.teahub.io/photos/full/101-1016105_paper-squid-wallpaper-watercolor-hd-wallpaper-high-resolution.jpg);
 }
@@ -117,8 +123,3 @@ h1 {
 	font-size: 14px;
 }
 
-@media screen and (max-width: 600px) {
-  article #intro, #details {
-    display: none;
-  }
-}
