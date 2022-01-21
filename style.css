@@ -38,7 +38,7 @@ h2 {
 }
 
 .slideshow-container {
-  position: relative;
+  position: flex;
   float: left;
   width: 54.6%;
   background: rgba(255, 255, 255, 0.8);
@@ -103,7 +103,7 @@ h1 {
 	float: right;
 	font-family: 'Domine', serif;
 	margin-right: 7%;
-
+	position: flex;
 	font-size: 14px;
 }
 
@@ -112,11 +112,13 @@ h1 {
 	font-family: 'Domine', serif;
 	margin-right: auto;
 	margin-left: 7%;
+	position: flex;
 	font-size: 14px;
 }
 
 .hobbysright{
 	float: right;
+	position: flex;
 	font-family: 'Domine', serif;
 	margin-right: 48%;
 
