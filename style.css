@@ -118,8 +118,3 @@ h1 {
 	font-size: 14px;
 }
 
-@media screen and (max-width: 600px) {
-  #intro #details {
-    display: none;
-  }
-}
