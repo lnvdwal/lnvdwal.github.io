@@ -36,9 +36,8 @@ h2 {
   float: left;
   width: 54.6%;
   background: rgba(255, 255, 255, 0.8);
-  margin-left: 10px;
-  overflow: hidden;
-  padding-bottom: 347px;
+	margin-left: 10px;
+	padding-bottom: 347px;
 }
 
 /* Slides */
