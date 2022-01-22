@@ -3,31 +3,55 @@ body {
 	background-image: url(https://www.teahub.io/photos/full/101-1016105_paper-squid-wallpaper-watercolor-hd-wallpaper-high-resolution.jpg);
 }
 
-.text {font-family: 'Domine', serif; float: left; font-size: 8px;}
+h1 {
+	font-family: 'Domine', serif;
+	font-size: 18px;
+
+}
+
+#details {
+	float: bottom;
+	width: 93%;
+	position: static;
+	text-align: center;
+	font-family: 'Domine', serif;
+	font-size: 14px;
+
+}
+
+.info{
+	width: 93%;
+	padding-bottom: 60px;
+	border: 12px solid rgba(255, 255, 255, 0.1);
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.text {font-family: 'Domine', serif; float: left; font-size: 10px; display: inline-block;}
 
 .rightside {
 	float: right;
 	font-family: 'Domine', serif;
-	margin-right: 7%;
+	margin-right: 5%;
 	position: flex;
-	font-size: 8px;
+	overflow: scroll;
+	font-size: 10px;
 }
 
 .middle {
 	float: left;
 	font-family: 'Domine', serif;
-	margin-right: auto;
-	margin-left: 7%;
+	margin-right: 5px;
+	margin-left: 5%;
 	position: flex;
-	font-size: 8px;
+	overflow: scroll;
+	font-size: 10px;
 }
 
 .hobbysright{
 	float: right;
-	display: inline-block;
-	position: flex;
 	font-family: 'Domine', serif;
-	margin-right: 48%;
-
-	font-size: 8px;
+	margin-right: 40%;
+	overflow: scroll;
+	font-size: 10px;
 }
+
