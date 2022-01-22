@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) and (orientation: portrait) {
-	#intro, #details {
+	#intro {
 		display: none;
 	}
 }
@@ -16,6 +16,21 @@ h1 {
 
 }
 
+#details {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 80%;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 20px;
+	font-family: 'Domine', serif;
+	font-size: 14px;
+	border: 12px solid rgba(255, 255, 255, 0.1);
+	background-color: rgba(255, 255, 255, 0.7);
+
+}
+
 .slideshow-container {
 
   float: left;
@@ -23,7 +38,7 @@ h1 {
   width: 95%;
   background: rgba(255, 255, 255, 0.8);
   margin-left: 10px;
-  padding-bottom: 347px;
+  padding-bottom: 90px;
 }
 
 .mySlides {
@@ -37,7 +52,7 @@ h1 {
   position: relative;
   top: 50%;
   width: auto;
-  margin-top: -30px;
+  margin-top: -180px;
   padding: 16px;
   color: #1D7179;
   font-weight: bold;
@@ -71,7 +86,7 @@ h1 {
 .rightside {
 
 	font-family: 'Domine', serif;
-	margin-right: 12%;
+	margin-right: 15%;
 	position: flex;
 	overflow: scroll;
 	font-size: 8px;
@@ -81,17 +96,10 @@ h1 {
 
 	font-family: 'Domine', serif;
 	margin-right: 5px;
-	margin-left: 5%;
+	margin-left: 4%;
 	text-align: right;
 	overflow: scroll;
 	font-size: 8px;
 }
 
-.hobbysright{
-
-	font-family: 'Domine', serif;
-	margin-right: 40%;
-	overflow: scroll;
-	font-size: 8px;
-}
 
