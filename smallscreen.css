@@ -10,3 +10,93 @@ h2 {
 	color: #0D374C;
 }
 
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  float: center;
+  width: 54.6%;
+  background: rgba(255, 255, 255, 0.8);
+  margin-left: 10px;
+  padding-bottom: 347px;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding-left: 45px;
+  text-align: left;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #1D7179;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+	position: fixed;
+	margin-left: 0px;
+	left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: fixed;
+  margin-right: 0px;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(13, 55, 76.8);
+  color: white;
+}
+
+/* Add an italic font style to all quotes */
+h1 {
+	font-family: 'Domine', serif;
+	font-size: 20px;
+	color: #1D7179;
+}
+
+/* Add a blue color to the author */
+.text {font-family: 'Domine', serif; float: left; font-size: 14px;}
+
+.rightside {
+	float: right;
+	font-family: 'Domine', serif;
+	margin-right: 7%;
+	position: flex;
+	font-size: 14px;
+}
+
+.middle {
+	float: left;
+	font-family: 'Domine', serif;
+	margin-right: auto;
+	margin-left: 7%;
+	position: flex;
+	font-size: 14px;
+}
+
+.hobbysright{
+	float: right;
+	position: flex;
+	font-family: 'Domine', serif;
+	margin-right: 48%;
+
+	font-size: 14px;
+}
