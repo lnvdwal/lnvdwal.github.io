@@ -53,10 +53,10 @@ h1 {
   top: 50%;
   width: auto;
   margin-top: -180px;
-  padding: 16px;
+  padding: 3px;
   color: #1D7179;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 10px;
   border-radius: 3 3px 3px 3;
   user-select: none;
 }
