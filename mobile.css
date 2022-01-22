@@ -1,57 +1,95 @@
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+	#intro, #details {
+		display: none;
+	}
+}
 
 body {
 	background-image: url(https://www.teahub.io/photos/full/101-1016105_paper-squid-wallpaper-watercolor-hd-wallpaper-high-resolution.jpg);
 }
 
 h1 {
+	padding-right: 45px;
+	text-align: center;
 	font-family: 'Domine', serif;
 	font-size: 18px;
 
 }
 
-#details {
-	float: bottom;
-	width: 93%;
-	position: static;
-	text-align: center;
-	font-family: 'Domine', serif;
-	font-size: 14px;
+.slideshow-container {
 
+  float: left;
+  text-align: center;
+  width: 95%;
+  background: rgba(255, 255, 255, 0.8);
+  margin-left: 10px;
+  padding-bottom: 347px;
 }
 
-.info{
-	width: 93%;
-	padding-bottom: 60px;
-	border: 12px solid rgba(255, 255, 255, 0.1);
-	background-color: rgba(255, 255, 255, 0.7);
+.mySlides {
+  display: none;
+  padding-left: 45px;
+  text-align: left;
 }
 
-.text {font-family: 'Domine', serif; float: left; font-size: 10px; display: inline-block;}
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #1D7179;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 3 3px 3px 3;
+  user-select: none;
+}
+
+.prev {
+	position: fixed;
+	margin-left: 30px;
+	left: 0;
+  	border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: fixed;
+  margin-right: 30px;
+  right: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.text {font-family: 'Domine', serif; font-size: 8px; display: flex; align-items: flex-start;}
 
 .rightside {
-	float: right;
+	display: flex;
+	align-items: flex-end;
 	font-family: 'Domine', serif;
 	margin-right: 5%;
 	position: flex;
 	overflow: scroll;
-	font-size: 10px;
+	font-size: 8px;
 }
 
 .middle {
-	float: left;
+	display: flex;
+	align-items: center;
 	font-family: 'Domine', serif;
 	margin-right: 5px;
 	margin-left: 5%;
 	position: flex;
 	overflow: scroll;
-	font-size: 10px;
+	font-size: 8px;
 }
 
 .hobbysright{
-	float: right;
+	display: flex;
+	align-items: flex-end;
 	font-family: 'Domine', serif;
 	margin-right: 40%;
 	overflow: scroll;
-	font-size: 10px;
+	font-size: 8px;
 }
 
