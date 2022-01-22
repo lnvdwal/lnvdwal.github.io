@@ -24,3 +24,10 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+if ($(window).width() < 600) {
+    $("#include").load("mobile.html"); 
+}
+else {
+   $("#include").load("index.html");
+}

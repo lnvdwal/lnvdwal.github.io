@@ -1,9 +1,14 @@
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (orientation: portrait) {
   #intro, #details, .prev, .next {
     display: none;
   }
+
+  .mySlides {
+  	float: center;
+  }
 }
+
 
 body {
 	background-image: url(https://www.teahub.io/photos/full/101-1016105_paper-squid-wallpaper-watercolor-hd-wallpaper-high-resolution.jpg);
@@ -39,7 +44,7 @@ h2 {
 }
 
 .slideshow-container {
-  position: flex;
+
   float: left;
   width: 54.6%;
   background: rgba(255, 255, 255, 0.8);
