@@ -137,16 +137,19 @@ h3 {
 
 .column1 {
 	flex: 33.33%;
+	font-size: 18px;
 	text-align: left;
 }
 
 .column2 {
 	flex: 33.33%;
+	font-size: 18px;
 	text-align: left;
 }
 
 .column3 {
 	flex: 33.33%;
+	font-size: 18px;
 	text-align: right;
 }
 
