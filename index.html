@@ -3,75 +3,60 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 	<title>Lisa van der Wal</title>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" media='screen and (min-width: 140px) and (max-width: 480px)' href="mobile.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap" rel="stylesheet">
 
-</script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<h2>Lisa van der Wal</h2>
-<div id="intro"> 
-    Goedendag!<br><br>
+<!-- Navigation Menu -->
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<a href="index.html" style=" margin-bottom: 30px;">Home</a>
+  		<a href="talen.html">Talen & Vaardigheden</a>
+ 		<a href="werkervaring.html">Werkervaring & Projecten</a>
+  		<a href="studieverleden.html">Studieverleden</a>
+  		<a href="cursussen.html">Cursussen</a>
+  		<a href="hobbys.html">Hobby's & Interesses</a>
+	</div>
 
-    Voordat u zich laat beïnvloeden door mijn hiernaast beschreven werk- en studieverleden – u heeft nu stiekem gespiekt hè? – wil ik mij eerst even aan u voorstellen.<br><br>
+<span onclick="openNav()"><i class="fa fa-bars" style="color: black; margin-top: 30px; margin-left: 5px; font-size: 30px;"></i></span>
 
-    Zoals de grote letters boven aan de pagina u al hebben doen vermoeden is mijn naam Lisa van der Wal. Ik ben zeventwintig jaar oud en een jobhoppende millennial die achteraf gezien, helaas, enkel lang genoeg als caissière heeft gewerkt om deze baan als van toevoeging op mijn curriculum vitae te beschouwen.<br><br>
+	<div class="pic">
+		<img src="profilepic.png" class="profilepic" style="width: 100%;">
+	</div>
+		<h2>Lisa van der Wal</h2>
+	
+	<div class="info">
+		<div class="col-info1">
+			<h1>Lisa van der Wal</h1>
+		</div>
+		<div class="col-info2">
+			<p>M.E.Hartmanstraat 63<br>
+			4132 EE Vianen (Utrecht)<br>
+			lnvdwal@outlook.com<br>
+			+31 (0)6 37 600 984<br>
+			lnvdwal.github.io</p>
+		</div>
+	</div>
 
-    Ik heb ongetwijfeld een gekleurde CV, maar ook zeker de oprechtste die u zult vinden. Ik ben namelijk van mening dat, ondanks mijn werk- en studieverleden die nogal hectisch overkomt op papier, eruit af te lezen valt dat ik mij tot de dag van vandaag ben blijven ontwikkelen, en tegenslagen mij daar klaarblijkelijk niet van hebben kunnen weerhouden. Mijn creativiteit, intelligentie, en leergierigheid zijn er niets minder om geworden, in tegendeel; deze capaciteiten blijven zich in mij nog altijd ontplooien. 
-</div>
-
-<div class="slideshow-container"> 
-     <div class="mySlides">
-    <h1>Talen & Vaardigheden</h1>
-    <p class="text">Nederlands<br>Engels<br>Duits<br><br>Microsoft Office Word<br>Microsoft Office Excel<br><br>Typen</p>
-    <p class="rightside">Moedertaal<br>Vloeiend<br>Beginner<br><br>Gevorderd<br>Gevorderd<br><br>316apm/ 59wpm</p>
-  </div>
-
-  <div class="mySlides">
-    <h1>Werkervaring & Projecten</h1>
-    <p class="text">C1000/Jumbo<br>Ixly<br>Praxis<br>De Kroon<br>ECRM</p>
-    <p class="middle">Caissière<br>Data Entry Medewerker<br>Medewerker Servicebalie<br>Personeelsplanner<br>Data Enrty Medewerker</p>
-    <p class="rightside">2010-2013<br>April 2021<br>Mei t/m Juli 2021<br>September 2021<br>10/2021 t/m 1/2022</p>
-  </div>
-
-  <div class="mySlides">
-    <h1>Studieverleden</h1>
-     <p class="text">Journalistiek & Communicatie<br>Medewerker DTP<br>Leisure & Hospitality<br>Zorg & Welzijn<br>Voorbereidende Leerweg</p>
-     <p class="middle">Niveau 4<br>Niveau 2<br>Niveau 3<br>VMBO, BBL<br>LWOO</p>
-     <p class="rightside">2018-2018<br>2012-2013<br>2011-2011<br>2009-2011<br>2007-2009</p>
-  </div>
-
-   <div class="mySlides">
-    <h1>Cursussen</h1>
-    <p class="text">Basiskennis Psychologie<br>ISTQB Foundation Level<br>ITIL 4 Foundation Level<br>Web Development<br>Python Programming</p>
-    <p class="rightside">8,7<br>[Studerend]<br>[Studerend]<br>[Studerend]<br>[Studerend]</p>
-  </div>
-  
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-
-<div>
-  <article id="details"><img src="Picsart_22-01-04_19-11-47-146 kopie.png" width="100%" style="display: block; margin-left: auto; margin-right: auto;"
-><br>M.E.Hartmanstraat 63<br>4132 EE Vianen (Utrecht)<br>lnvdwal@outlook.com<br>+31 (0) 6 37 600 984</article>
-</div>
-
-	<script type="text/javascript" src="java.js"></script>
-  <script type="text/javascript">
-window.onload = function(){ 
-                alert("A work in progress, so please bear with me!");
-                }
-  </script>
+	<div class="middle">
+Welkom!
+<br><br>
+Zoals de grote letters boven aan de pagina u al hebben doen vermoeden is mijn naam Lisa van der Wal. Ik ben zeventwintig jaar oud en een jobhoppende millennial die achteraf gezien, helaas, enkel lang genoeg als caissière heeft gewerkt om deze baan als van toevoeging op mijn curriculum vitae te beschouwen.
+<br><br>
+Ik heb ongetwijfeld een gekleurde CV, maar ook zeker de oprechtste die u zult vinden. Ik ben namelijk van mening dat, ondanks mijn werk- en studieverleden die nogal hectisch overkomt op papier, eruit af te lezen valt dat ik mij tot de dag van vandaag ben blijven ontwikkelen, en tegenslagen mij daar klaarblijkelijk niet van hebben kunnen weerhouden. Mijn creativiteit, intelligentie, en leergierigheid zijn er niets minder om geworden, in tegendeel; deze capaciteiten blijven zich in mij nog altijd ontplooien.
+	</div>
 
 </body>
+<footer>
+	
+</footer>
+<script type="text/javascript" src="java.js"></script>
 </html>
