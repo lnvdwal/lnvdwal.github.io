@@ -197,6 +197,7 @@ h3 {
 
 .column2-hobbys {
 	flex: 33.33%;
+	font-size: 18px;
 	text-align: center;
 }
 
