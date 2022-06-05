@@ -9,75 +9,68 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="linksMob">
-		<i class="fa fa-bars" onclick="myFunction()"></i>
-			<div id="myDropdown" class="dropdown-content">
-				<a href="index.html">Talen & Vaardigheden</a>
-				<a href="werkervaring.html">Werkervaring & Projecten</a>
-				<a href="studieverleden.html">Studieverleden</a>
-				<a href="cursussen.html">Cursussen</a>
-				<a href="hobbys.html">Hobby's & Interesses</a>
-			</div>
-		</div>
-	<hr class="hr1">
-	<h2 class="welcomeMob">Welkom!</h2>
-	<div class="profileWrapper">
-		<h2 class="welcome">Welkom!</h2>
-		<p class="text">Zoals de grote letters boven aan de pagina u al hebben doen vermoeden is mijn naam Lisa van der Wal. Ik ben zeventwintig jaar oud en een jobhoppende millennial die achteraf gezien, helaas, enkel lang genoeg als caissière heeft gewerkt om deze baan als van toevoeging op mijn curriculum vitae te beschouwen.<br><br>
-		Ik heb ongetwijfeld een gekleurde CV, maar ook zeker de oprechtste die u zult vinden. Ik ben namelijk van mening dat, ondanks mijn werk- en studieverleden die nogal hectisch overkomt op papier, eruit af te lezen valt dat ik mij tot de dag van vandaag ben blijven ontwikkelen, en tegenslagen mij daar klaarblijkelijk niet van hebben kunnen weerhouden. Mijn creativiteit, intelligentie, en leergierigheid zijn er niets minder om geworden, in tegendeel; deze capaciteiten blijven zich in mij nog altijd ontplooien.</p>
-	</div>
-	<div class="profileCard">
-		<img class="profilePic" src="profilepic.jpg" style="width:100%;">
-		<img class="profilePicMob" src="profilepic.jpg" style="border-radius: 50%;">
-		<h2 class="name">Lisa&nbspvan&nbspder&nbspWal</h2>
-		<hr>
-		<h5>
-			M.E.Hartmanstraat 63<br>
-			4132 EE, Vianen (Utrecht)<br>
-			lnvdwal@outlook.com (preferred)<br>
-			+31 (0)6 37 600 984<br>
-			lnvdwal.github.io
-		</h5>
-	</div>
-	<div class="resumeLinks">
-		<a href="index.html">Talen & Vaardigheden</a>&nbsp|
-		<a href="werkervaring.html">Werkervaring & Projecten</a>&nbsp|
-		<a href="studieverleden.html">Studieverleden</a>&nbsp|
-		<a href="cursussen.html">Cursussen</a>&nbsp|
-		<a href="hobbys.html">Hobby's & Interesses</a>
-	</div>
-	<div class="resumeInfo">
-		<div class="column">
-			<p class="left school">
-				Voorbereidende Leerweg<br><br>
-				Zorg & Welzijn<br><br>
-				Leisure & Hospitality<br><br>
-				Medewerker DTP<br><br>
-				Journalistiek & Communicatie<br><br>
-			</p>
-		</div>
-  		<div class="column">
-  			<p class="right level" style="margin-left: -20px;">
-  				<span style="font-style: italic;">LWOO&nbsp</span>&nbsp|&nbsp2007&nbsp-&nbsp2009<br><br>
-  				<span style="font-style: italic;">VMBO,&nbspBBL</span>&nbsp|&nbsp2009&nbsp-&nbsp2011<br><br>
-  				<span style="font-style: italic;">Niveau&nbsp3</span>&nbsp|&nbsp2007&nbsp-&nbsp2009<br><br>
-  				<span style="font-style: italic;">Niveau&nbsp2</span>&nbsp|&nbsp2007&nbsp-&nbsp2009<br><br>
-  				<span style="font-style: italic;">Niveau&nbsp4</span>&nbsp|&nbsp2007&nbsp-&nbsp2009<br><br>
-  			</p>
+	<div id="myNav" class="overlay">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ 		 <div class="overlay-content">
+    		<a href="index.html">Home</a>
+    		<a href="talen.html">Talen & Vaardigheden</a>
+    		<a href="werkervaring.html">Werkervaring & Projecten</a>
+    		<a href="studieverleden.html">Studieverleden</a>
+    		<a href="portfolio.html">Portfolio</a>
+    		<a href="cursussen.html">Cursussen</a>
+    		<a href="hobbies.html">Hobby's & Interesses</a>
   		</div>
 	</div>
-	<hr class="hr2">
+	<div class="card">
+		<i class="fa fa-bars" onclick="openNav()"></i>
+		<img src="profilepic.png">
+		<h2>Lisa van der Wal</h2>
+		<h4>
+			M.E.Hartmanstraat 63<br>
+			4132 EE Vianen (Utrecht)<br>
+			lnvdwal@outlook.com (preferred)<br>
+			+31 (0)6 37 600 984<br>
+			lnvdwal.github.io<br>
+		</h4>
+	</div>
+	<div class="studiesCard">
+		<h3 class="welcome">Studieverleden</h3>
+		<div class="row">
+  			<div class="columnStudies1">
+  				Voorbereidende Leerweg<br>
+  				Zorg & Welzijn<br>
+  				Leisure & Hospitality<br>
+  				Medewerker DTP<br>
+  				Jorunalistiek & Communicatie<br>
+  			</div>
+  			<div class="columnStudies2" style="text-align: center;">
+  				LWOO<br>
+  				VMBO, BBL<br>
+  				Niveau 3<br>
+  				Niveau 2<br>
+  				Niveau 4<br>
+  			</div>
+  			<div class="columnStudies3" style="text-align: right;">
+  				2007-2009<br>
+  				2009-2011<br>
+  				2011-2011<br>
+  				2012-2013<br>
+  				2018-2018<br>
+  			</div>
+		</div>
+	</div>
 <footer>
 	<div class="footerLinks">
-		<a href="mailto:lnvdwal@outlook.com" class="fa fa-envelope">&nbsplnvdwal@outlook.com&nbsp&nbsp&nbsp&nbsp</a>
-		<a href="https://www.instagram.com/lnvdwal/" class="fa fa-instagram">&nbspInstagram</a>
+		<p style="line-height: 0.5px; font-size: 14px;">Contact opnemen :</p>
+		<a href="mailto:lnvdwal@outlook.com" class="fa fa-envelope">lnvdwal@outlook.com</a>
 	</div>
 </footer>
+	<p class="madeBy">Website made by Lisa Naomi van der Wal</p>
 	<script src="script.js"></script>
 </body>
 </html>
