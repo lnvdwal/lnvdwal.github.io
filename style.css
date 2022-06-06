@@ -264,3 +264,16 @@ footer {
 @media screen and (height: 1368px) and (width: 912px){.columns{font-size: 24px}.columnStudies1,.columnStudies2,.columnStudies3{font-size: 24px}.footerLinks,a{font-size: 26px}.footerLinks,p{font-size: 20px;}.madeBy{font-size: 18px}}
 @media screen and (height: 600px) and (width: 1024px){.columns{font-size: 24px}.columnStudies1,.columnStudies2,.columnStudies3{font-size: 24px}.footerLinks,a{font-size: 26px}.footerLinks,p{font-size: 20px;}.madeBy{font-size: 18px}}
 @media screen and (height: 800px) and (width: 1280px){.columns{font-size: 24px}.columnStudies1,.columnStudies2,.columnStudies3{font-size: 24px}.footerLinks,a{font-size: 26px}.footerLinks,p{font-size: 20px;}.madeBy{font-size: 18px}}
+.portfolioLinks a{
+	display: flex;
+	margin: auto;
+}
+.portfolioLinks,img {
+	display: flex;
+	margin: auto;
+	padding-top: 20px;
+}
+.portfolioLinks, h6 {
+	color: black;
+	font-size: 14px;
+}
