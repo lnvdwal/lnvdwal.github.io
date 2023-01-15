@@ -1,11 +1,18 @@
 body {
-	color: ;
+	background-image: url('flowerbackground.png');
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: right;
+  background-size: 400px;
 }
 body h3 {
 	text-align: center;
 }
 body p {
 	text-align: center;
+}
+.menuDesktop{
+	display: none;
 }
 .fa-bars {
 	position: absolute;
@@ -20,8 +27,8 @@ body p {
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-image: url('overlaybg.png');
+  background-size: 600px;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -37,7 +44,7 @@ body p {
   padding: 5px;
   text-decoration: none;
   font-size: 28px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }
@@ -58,25 +65,29 @@ body p {
 }
 .card {
 	background-color: #c5d4d9;
-	margin-left: 10px;
+	margin-left: -10px;
 	margin-top: 20px;
-	margin-right: 12px;
+	margin-right: -12px;
 	padding-bottom: 10px;
 	box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.2);
 	z-index: 2;
 }
 .card h2 {
 	text-align: center;
-	font-size: 18px;
-	color: #02151b;
-	font-family: 'Raleway', sans-serif;
+	font-size: 38px;
+	color: #323F38;
+	text-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2);
+	font-family: 'Dancing Script', cursive;
 	font-weight: 800;
+	margin-top: -5px;
+	margin-bottom: -25px;
+}
+.deskName{
+	display: none;
 }
 .card img {
 	display: flex;
-	margin: auto;
-	padding-top: 15px;
-	width: 50%;
+	width: 35%;
 }
 .card h4 {
 	text-align: center;
@@ -89,12 +100,15 @@ body p {
 	background-color: #4d6561;
 	color: white;
 	padding: 10px;
-	margin-left: -10px;
+	margin-left: 35px;
 	margin-top: -30px;
-	margin-right: -10px;
+	margin-right: 30px;
 	padding-top: 30px;
 	font-family: 'Raleway', sans-serif;
 	z-index: -1;
+	border: 15px solid rgba(77, 101, 97, 0.4);
+	-webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 .welcomeCard p {
 	font-size: 14px;
@@ -105,72 +119,98 @@ body p {
 	background-color: #4d6561;
 	color: white;
 	padding: 10px;
-	margin-left: -10px;
+	margin-left: 30px;
 	margin-top: -30px;
-	margin-right: -10px;
+	margin-right: 30px;
 	padding-top: 30px;
 	font-family: 'Raleway', sans-serif;
 	z-index: -1;
+	border: 15px solid rgba(77, 101, 97, 0.4);
+	-webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 .workCard {
 	position: relative;
 	background-color: #4d6561;
 	color: white;
 	padding: 10px;
-	margin-left: -10px;
+	margin-left: -20px;
 	margin-top: -30px;
-	margin-right: -10px;
+	margin-right: -20px;
 	padding-top: 30px;
 	font-family: 'Raleway', sans-serif;
 	z-index: -1;
+	border: 15px solid rgba(77, 101, 97, 0.4);
+	-webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 .studiesCard {
+	display: block;
 	position: relative;
 	background-color: #4d6561;
 	color: white;
 	padding: 10px;
-	margin-left: -10px;
+	margin-left: 10px;
 	margin-top: -30px;
-	margin-right: -10px;
+	margin-right: 10px;
 	padding-top: 30px;
 	font-family: 'Raleway', sans-serif;
 	z-index: -1;
+	border: 15px solid rgba(77, 101, 97, 0.4);
+	-webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+.studiesCardDesk{
+	display: none;
 }
 .portfolioCard {
 	position: relative;
 	background-color: #4d6561;
 	color: white;
 	padding: 10px;
-	margin-left: -10px;
+	margin-left: 30px;
 	margin-top: -30px;
-	margin-right: -10px;
+	margin-right: 30px;
 	padding-top: 30px;
 	font-family: 'Raleway', sans-serif;
 	z-index: -1;
+	border: 15px solid rgba(77, 101, 97, 0.4);
+	-webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+.portfolioCard h6{
+	color: white;
+	text-align: center;
 }
 .coursesCard {
 	position: relative;
 	background-color: #4d6561;
 	color: white;
 	padding: 10px;
-	margin-left: -10px;
+	margin-left: 30px;
 	margin-top: -30px;
-	margin-right: -10px;
+	margin-right: 30px;
 	padding-top: 30px;
 	font-family: 'Raleway', sans-serif;
 	z-index: -1;
+	border: 15px solid rgba(77, 101, 97, 0.4);
+	-webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
-.hobbysCard {
+.hobbiesCard {
 	position: relative;
 	background-color: #4d6561;
 	color: white;
 	padding: 10px;
-	margin-left: -10px;
+	margin-left: 30px;
 	margin-top: -30px;
-	margin-right: -10px;
+	margin-right: 30px;
 	padding-top: 30px;
 	font-family: 'Raleway', sans-serif;
 	z-index: -1;
+	border: 15px solid rgba(77, 101, 97, 0.4);
+	-webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 .column {
   float: left;
@@ -188,21 +228,15 @@ body p {
 }
 .columnStudies1 {
 	font-size: 13px;
-	line-height: 3;
+	line-height: 2;
 	float: left;
-	width: 50%;
+	width: 85%;
 }
 .columnStudies2 {
 	font-size: 13px;
-	line-height: 3;
-	float: left;
-	width: 30%;
-}
-.columnStudies3 {
-	font-size: 13px;
-	line-height: 3;
-	float: left;
-	width: 20%;
+	line-height: 2;
+	float: right;
+	width: 15%;
 }
 .columnCourses {
 	float: left;
@@ -229,6 +263,9 @@ footer {
 	margin-top: 20px;
 	padding-top: 10px;
 	padding-bottom: 40px;
+	border-top: 25px solid rgba(141, 52, 33, 0.4);
+	-webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 .footerLinks,a {
 	text-align: center;
@@ -240,4 +277,90 @@ footer {
 	font-size: 12px;
 	margin-top: 0px;
 	color: grey;
+}
+.portfolioLinks a{
+	display: flex;
+	margin: auto;
+}
+.portfolioLinks,img {
+	display: flex;
+	margin: auto;
+	padding-top: 20px;
+}
+.portfolioLinks, h6 {
+	color: black;
+	font-size: 14px;
+}
+
+@media screen and (min-width: 768px){
+body{background-repeat: repeat-x;background-size: 50vw}
+.fa-bars{display: none;}
+.menuDesktop{display: block; font-size: 1vw}
+ul{list-style-type: none}
+ul a{color: black}
+li{display: inline; padding: 2vw}
+.card{margin-bottom: 1vw; padding-top: 1vw}
+.card img{width:18%; position: relative; float: right; margin-top: -6vw;margin-right: 1vw;}
+.card h4{text-align: left; margin-left: 3.5vw;margin-top: 0.5vw}
+.welcomeCard{margin-left: 20vw; margin-right: 5vw}h2{display: none;}
+.studiesCard{display: none;}
+.studieCardDesk{display: block;position: relative;text-align:center;background-color: #4d6561;color: white;padding: 10px;margin-left: 250px;padding-bottom:30px;margin-top: -30px;margin-right: 50px;padding-top: 30px;font-family: 'Raleway', sans-serif;z-index: -1;border: 15px solid rgba(77, 101, 97, 0.4);-webkit-background-clip: padding-box; /* for Safari */background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */}
+.workCard{margin-left: 250px;margin-right: 50px;}
+.workCard .columns{font-size: 1vw}
+.languagesCard{margin-left: 250px; margin-right: 50px}
+.coursesCard{margin-left: 250px; margin-right: 50px}
+.hobbiesCard{margin-left: 250px; margin-right: 50px}
+.deskName{display: block;margin-top: 1vw;margin-bottom: -2.8vw;padding-left: 30px;text-align: left;font-size: 4vw;color: #323F38;text-shadow: 5px 0px 5px rgba(0, 0, 0, 0.4);font-family: 'Dancing Script', cursive;}
+.footerLinks{font-size: 1vw}
+footer{margin-top: 8vw;padding-bottom: 1vw;}
+}
+
+@media screen and (height: 600px) and (width: 1024px){
+.welcomeCard{margin-top: -6vw; margin-bottom: -2vw}
+.deskName{margin-bottom: -3.1vw}
+footer{margin-top: 3vw; border-top: solid 1vw rgba(141, 52, 33, 0.4)}
+}
+
+@media screen and (height: 1368px) and (width: 912px){
+body{background-repeat: repeat;background-size: 100vw}
+.menuDesktop{display: none;}
+.fa-bars{display: block;margin-left: 1vw;margin-top: -0.3vw}
+.card img{ width:28%; margin-top: -6.5vw; margin-right: 2vw}
+.welcomeCard{margin-left: 25vw; margin-right: 10vw}
+.welcome{font-size: 3vw}
+.welcomeCard p{font-size: 2vw}
+.deskName{margin-bottom: -4vw; font-size: 7vw}
+.card h4{margin-left: 6vw; font-size: 2.5vw}
+.footerLinks{font-size: 2vw}
+footer{margin-top: 40vw}
+}
+
+@media screen and (height: 1024px) and (width: 768px){
+.menuDesktop{display: none;}
+.card img{width: 25%}
+.fa-bars{display: block;margin-top: -0.5vw}
+.deskName{margin-bottom: -4vw;font-size: 5vw}
+.card h4{margin-left: 6vw}
+.footerLinks{font-size: 2vw}
+footer{margin-top: 40vw}
+}
+
+@media screen and (height: 1180px) and (width: 820px){
+.menuDesktop{display: none;}
+.card img{width: 25%}
+.welcome{clear: right;}
+.fa-bars{display: block;margin-top: -0.5vw;margin-left: 1vw}
+.deskName{margin-bottom: -4vw;font-size: 5vw}
+.card h4{margin-left: 6vw}
+.footerLinks{font-size: 2vw}
+footer{margin-top: 40vw}
+}
+
+@media screen and (height: 1080px) and (width: 1920px){
+.card img{clear: both}
+.welcomeCard{margin-top: -3vw}
+.welcome{clear: both;font-size: 2vw}
+.welcomeCard p{font-size: 1vw}
+.deskName{margin-bottom: -2.5vw}
+.card h4{font-size: 1vw}
 }
